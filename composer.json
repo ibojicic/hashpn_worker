@@ -1,0 +1,28 @@
+{
+  "require": {
+    "symfony/console": "^3.2",
+    "illuminate/database": "^5.0",
+    "jeremeamia/superclosure": "^2.3",
+    "symfony/var-dumper": "^2.8",
+    "doctrine/dbal": "^2.5",
+    "illuminate/events": "^5.0",
+    "illuminate/filesystem": "^5.0",
+    "league/flysystem-dropbox": "^1.0",
+    "symfony/config": "^2.8",
+    "respect/validation": "^1.1",
+    "barryvdh/laravel-ide-helper": "^2.3",
+    "phpmailer/phpmailer": "~5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "HashPN\\App\\": "app/",
+      "HashPN\\App\\Console\\": "app/Console/",
+      "HashPN\\App\\Crons\\": "app/Crons/",
+      "HashPN\\Models\\": "models/",
+      "HashPN\\App\\Fetchers\\": "app/Fetchers/",
+      "HashPN\\App\\Validators\\": "app/Validators/",
+      "HashPN\\App\\Parsers\\": "app/Parsers/",
+      "MyPHP\\": "/usr/lib/MyPHP/classes/"
+    }
+  }
+}
